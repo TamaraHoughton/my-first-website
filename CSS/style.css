@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    color: darkmagenta;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:plum;
+    color: black;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display:inline-block ;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 15px 10px;
+
+}
+
+.navbar li a:hover{
+    background-color: blueviolet;
+    color: white;
+
+}
+.footer{
+    text-align: center;
+    background-color: plum;
+    color: black;
+    padding: 20px 50px;
+    bottom: 0;
+    position: absolute;
+    width: 94%;
+
+}
+
+.pic{
+    height: 300px;
+    width: 200px;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.about-me{
+    text-align: center;
+    justify-content: center;
+
+
+}
+.cbox{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+
+}
